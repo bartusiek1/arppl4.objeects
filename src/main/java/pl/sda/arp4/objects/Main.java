@@ -17,5 +17,7 @@ public class Main {
         System.out.println(student1);
         System.out.println("Ten studen ma na nazwisko: " + student1.getNazwisko());
         System.out.println();
+
+        student1.przedstawSie();
     }
 }
