@@ -1,4 +1,6 @@
-package strings;
+package pl.sda.arp4.strings;
+
+import java.util.Scanner;
 
 public class MainZadanie8 {
     public static void main(String[] args) {
@@ -29,6 +31,11 @@ public class MainZadanie8 {
         // podmienianie znaku (replace / replaceAll)
         String kotyPrzecinek = "koty,";
         String wynikKotyBezPrzecinka = kotyPrzecinek.replaceAll(",", "");
+
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+
+
     }
 }
 

@@ -1,4 +1,4 @@
-package strings;
+package pl.sda.arp4.strings;
 
 //     Zadeklaruj zmienną tekstową text i przypisz do niej jakąś wartość (Przyjmij ze scannera).
 //

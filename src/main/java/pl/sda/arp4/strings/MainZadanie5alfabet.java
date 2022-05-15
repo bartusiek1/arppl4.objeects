@@ -1,15 +1,8 @@
-package strings;
-
-//     Napisz program który zlicza wystąpienia liter w tekście. Posłuż się do tego pętlami for/while.
-//     (spróbuj zaimplementować na dwa sposoby).
-//
-//    sposób 1/wskazówka 1: wykorzystaj kody ascii liter i iteruj tekst tyle razy, ile mamy liter w alfabecie
-//    i porównuj litery z kodami ascii
-//    *sposób 2/wskazówka 2: wykorzystaj do zliczania dodatkową tablicę.
+package pl.sda.arp4.strings;
 
 import java.util.Scanner;
 
-public class MainZadanie5 {
+public class MainZadanie5alfabet {
     public static void main(String[] args) {
         /**
          * 5. Napisz program który zlicza wystąpienia liter w tekście.
@@ -25,27 +18,23 @@ public class MainZadanie5 {
         String tekst = scanner.nextLine();
 
         char[] znaki = tekst.toCharArray();
-        for (int i = 0; i < znaki.length; i++) {
-            char literkai = znaki[i];
-
+        // iteruję alfabet
+        for (char znak = 'a'; znak <= 'z'; znak++) {
             int licznik = 0;
-            for (int j = 0; j < znaki.length; j++) {
-                char literkaj = znaki[j];
 
-                // jeśli litera wystąpiła już wcześniej nie wykonujemy pętli i przerywamy liczenie
-                if ((j < i) && (literkai == literkaj)) {
-                    break;
-                }
-                if (literkai == literkaj) {
+            for (int i = 0; i < znaki.length; i++) {
+                char literkai = znaki[i];
+
+                if (znak == literkai) {
                     licznik = licznik + 1;
                 }
             }
-
             // wypisz tylko jeśli licznik != 0
             // będzie = 0 jeśli obecna litera jest powtórzona.
             if (licznik != 0) {
-                System.out.println(literkai + " ->" + licznik);
+                System.out.println(znak + " ->" + licznik);
             }
+
         }
     }
 }

@@ -1,4 +1,4 @@
-package strings;
+package pl.sda.arp4.strings;
 
 import java.util.Scanner;
 

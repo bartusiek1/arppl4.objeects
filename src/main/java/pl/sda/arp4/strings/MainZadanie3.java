@@ -1,4 +1,4 @@
-package strings;
+package pl.sda.arp4.strings;
 
 // Wczytaj od użytkownika jedną linię tekstu i przypisz ją do zmiennej text a następnie wczytaj od użytkownika słowo
 // i przypisz je do zmiennej searched. Następnie przeszukaj tekst w poszukiwaniu słowa przypisanego

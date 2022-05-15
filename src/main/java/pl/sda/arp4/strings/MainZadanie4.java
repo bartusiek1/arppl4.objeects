@@ -1,4 +1,4 @@
-package strings;
+package pl.sda.arp4.strings;
 
 // Napisz program który wypisuje litery od 'a' do 'z'; (już kiedyś robiliśmy takie zadanie)
 
