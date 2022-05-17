@@ -35,7 +35,7 @@ public class Main {
 
         if (shapeName.equalsIgnoreCase("circle")) {
             System.out.println("Please provide radius:");
-       yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy     double inputRadius = scanner.nextDouble();
+            double inputRadius = scanner.nextDouble();
 
             Circle circle = new Circle(inputRadius);
             System.out.println("Area          is : " + circle.calculateArea());
@@ -48,22 +48,7 @@ public class Main {
             System.out.println("Area          is : " + square.calculateArea());
             System.out.println("Circumference is : " + square.calculateCircumference());
         } else if (shapeName.equalsIgnoreCase("rectangle")) {
-            System.out.println("Please provide length of the edge A:");    private double edgeA;
-
-    public Square(double edgeA) {
-                this.edgeA = edgeA;
-            }
-
-            @Override
-            public double calculateArea() {
-                return edgeA * edgeA;
-            }
-
-            @Override
-            public double calculateCircumference() {
-                return edgeA * 4;
-            }
-        }
+            System.out.println("Please provide length of the edge A:");
             double inputEdgeA = scanner.nextDouble();
             System.out.println("Please provide length of the edge B:");
             double inputEdgeB = scanner.nextDouble();
