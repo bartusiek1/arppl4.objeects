@@ -21,14 +21,17 @@ public class Mis {
     }
 
     public void setImie(String imie) {
+
         this.imie = imie;
     }
 
     public int getWiek() {
+
         return wiek;
     }
 
     public void setWiek(int wiek) {
+
         this.wiek = wiek;
     }
 
