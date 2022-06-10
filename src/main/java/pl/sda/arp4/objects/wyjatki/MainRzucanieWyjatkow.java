@@ -1,4 +1,4 @@
-package pl.sda.arp4.objects.modele.wyjatki;
+package pl.sda.arp4.objects.wyjatki;
 
 public class MainRzucanieWyjatkow {
     public static void main(String[] args) {

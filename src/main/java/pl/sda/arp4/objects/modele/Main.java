@@ -1,4 +1,4 @@
-package pl.sda.arp4.objects;
+package pl.sda.arp4.objects.modele;
 
 public class Main {
     public static void main(String[] args) {

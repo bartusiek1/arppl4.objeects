@@ -1,4 +1,4 @@
-package pl.sda.arp4.objects.modele.wyjatki;
+package pl.sda.arp4.objects.wyjatki;
 
 import java.io.File;
 import java.io.FileNotFoundException;

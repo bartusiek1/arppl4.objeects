@@ -1,4 +1,4 @@
-package pl.sda.arp4.objects;
+package pl.sda.arp4.objects.modele;
 
 import java.util.Scanner;
 
